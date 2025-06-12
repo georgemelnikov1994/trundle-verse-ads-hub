@@ -97,8 +97,8 @@ const Publishers = () => {
             {[
               { name: "Banner Ads", size: "728x90, 300x250", description: "Traditional display banners" },
               { name: "Native Ads", size: "Responsive", description: "Blend naturally with content" },
-              { name: "Video Ads", size: "Multiple sizes", description: "High-engagement video content" },
-              { name: "Mobile Ads", size: "320x50, 300x250", description: "Optimized for mobile devices" },
+              { name: "Popunder Ads", size: "Full browser", description: "High-impact background ads" },
+              { name: "Push Ads", size: "Desktop/Mobile", description: "Direct notification ads" },
             ].map((format, index) => (
               <Card key={index} className="text-center">
                 <CardContent className="p-6">
