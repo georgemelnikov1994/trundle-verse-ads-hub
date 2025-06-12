@@ -1,10 +1,8 @@
-
 import { ArrowRight, Target, Users, BarChart3, Shield, Globe, Zap } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import Navigation from "@/components/Navigation";
 import FeatureCard from "@/components/FeatureCard";
-import StatsCard from "@/components/StatsCard";
 
 const Index = () => {
   return (
@@ -36,47 +34,6 @@ const Index = () => {
                 </Button>
               </Link>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Stats Section */}
-      <section className="py-16 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              Trusted by Industry Leaders
-            </h2>
-            <p className="text-gray-600">
-              Join thousands of successful publishers and advertisers
-            </p>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <StatsCard
-              title="Active Publishers"
-              value="25,000+"
-              subtitle="Growing daily"
-              icon={<Users size={24} />}
-            />
-            <StatsCard
-              title="Monthly Revenue"
-              value="$2.5M+"
-              subtitle="Paid to publishers"
-              icon={<BarChart3 size={24} />}
-            />
-            <StatsCard
-              title="Ad Impressions"
-              value="500M+"
-              subtitle="Monthly reach"
-              icon={<Target size={24} />}
-            />
-            <StatsCard
-              title="Countries"
-              value="150+"
-              subtitle="Global coverage"
-              icon={<Globe size={24} />}
-            />
           </div>
         </div>
       </section>
