@@ -112,64 +112,8 @@ const Publishers = () => {
         </div>
       </section>
 
-      {/* Requirements Section */}
-      <section className="py-16">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              Publisher Requirements
-            </h2>
-            <p className="text-gray-600">
-              Simple requirements to get started
-            </p>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <Card>
-              <CardHeader>
-                <CardTitle className="text-xl">Basic Requirements</CardTitle>
-              </CardHeader>
-              <CardContent className="space-y-4">
-                {[
-                  "Minimum 1,000 page views per month",
-                  "Original, high-quality content",
-                  "Website must be in English",
-                  "No adult or illegal content",
-                  "Valid contact information"
-                ].map((requirement, index) => (
-                  <div key={index} className="flex items-center gap-3">
-                    <Check className="h-5 w-5 text-green-500 flex-shrink-0" />
-                    <span className="text-sm">{requirement}</span>
-                  </div>
-                ))}
-              </CardContent>
-            </Card>
-
-            <Card>
-              <CardHeader>
-                <CardTitle className="text-xl">Payment Information</CardTitle>
-              </CardHeader>
-              <CardContent className="space-y-4">
-                {[
-                  "Minimum payout: $100",
-                  "Payment frequency: Monthly",
-                  "Payment methods: PayPal, Wire Transfer",
-                  "Net 30 payment terms",
-                  "Detailed payment reports"
-                ].map((info, index) => (
-                  <div key={index} className="flex items-center gap-3">
-                    <Check className="h-5 w-5 text-green-500 flex-shrink-0" />
-                    <span className="text-sm">{info}</span>
-                  </div>
-                ))}
-              </CardContent>
-            </Card>
-          </div>
-        </div>
-      </section>
-
       {/* Getting Started Section */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
